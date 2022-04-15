@@ -1,0 +1,48 @@
+:root {
+  --md-primary-fg-color:        #f4f262;
+  --md-primary-fg-color--light: #b4b5fc;
+  --md-primary-fg-color--dark:  #172b6c;
+  --md-accent-fg-color: #f29c44;
+}
+
+a {
+    color: #f4f262;
+}
+
+body {
+    background-color: #050772;
+}
+
+.md-header {
+    color: #070a9a;
+}
+
+.md-header {
+    color: #070a9a;
+}
+
+code {
+    background-color: #b4b5fc!important;
+    color: #020043!important;
+}
+
+h1 {
+    color: #b4b5fc!important
+}
+
+.md-search__form {
+    background-color: #070a9a!important;
+    color: #f4f262;
+}
+
+.md-search__input {
+    color: #f4f262;
+}
+
+.md-search__scrollwrap {
+    background-color: #050772!important;
+}
+
+.md-search-result__meta,  .md-search-result__list h1, .md-search-result__list p, .md-search-result__list div {
+    color: #f4f262!important;
+}
