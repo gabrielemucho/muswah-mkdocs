@@ -1,4 +1,4 @@
-# MUSWAH
+# MUSWAH | MAPPING UKRAINIAN SACRAL WOODEN ARCHITECTURAL HERITAGE 
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
