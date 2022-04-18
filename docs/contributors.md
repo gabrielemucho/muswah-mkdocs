@@ -1,1 +1,1 @@
-# Contributors and Partners
+# Contributors
