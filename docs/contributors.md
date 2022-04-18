@@ -1,3 +1,3 @@
-# Contributors
+# Team
 
 # Partners
