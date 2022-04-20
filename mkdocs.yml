@@ -7,7 +7,11 @@ theme:
     scheme: slate
 nav:
     - Home: index.md
-    - Get Involved: get-involved.md
     - Contributors: contributors.md
+    - Resources: resources.md
 extra_css:
   - stylesheets/extra.css
+markdown_extensions:
+  - attr_list
+  - md_in_html
+

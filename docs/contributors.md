@@ -11,3 +11,5 @@
 - Documentation coordinator TBC
 
 # Partners
+
+[![4CH](img/logo4CH.png)](https://www.4ch-project.eu/){: target = _blank}
