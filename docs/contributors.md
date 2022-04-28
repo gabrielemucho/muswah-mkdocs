@@ -5,7 +5,7 @@
 - Asset inventory coordinator TBC
 - Data coordinators:
   - Strand 1 (3d data) TBC
-  - Strand 2 (images and videos): Ellen Charlesworth, Doctoral Student, Durham University, [ellen.m.charlesworth@durham.ac.uk] (mailto: ellen.m.charlesworth@durham.ac.uk)
+  - Strand 2 (images and videos): Ellen Charlesworth, Doctoral Student, Durham University, [ellen.m.charlesworth@durham.ac.uk](mailto:ellen.m.charlesworth@durham.ac.uk)
   - Strand 3 (research outputs): Inna Babloian, easel and monumental painting restorer, [ingoosun@gmail.com](mailto:ingoosun@gmail.com)
 - Data assessment and shipment coordinator TBC
 - Documentation coordinator TBC
