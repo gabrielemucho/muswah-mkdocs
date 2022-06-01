@@ -3,6 +3,7 @@ theme:
   name: material
   icon: 
     logo: material/content-save-check
+  favicon: img/content-save-check.png
   # palette: 
   #   scheme: slate
 nav:
