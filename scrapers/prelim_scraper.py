@@ -18,14 +18,12 @@ class Helpers():
         query = q
         links = []
         for j in search(query, lang="en", tld="com", num=10, stop=40, pause=30):
-            print("GETTING LINK EN: ", link_count)
             new_link = self.resolve_redirects(j)
             links.append(new_link)
             link_count += 1
         return links
 
     def set_start_urls(self):
-        print("inside start URLs")
         en_query_list = ["wood+'church'+ukraine",
                          "tserkva+'church'+ukraine",
                          "wood+'church'+carpathian+ukraine",
@@ -46,7 +44,6 @@ class ChurchSpider(scrapy.Spider):
     name = "ChurchSpider"
     helpers = Helpers()
     starts = helpers.set_start_urls()
-    print(starts)
     start_urls = list(set(starts))
 
     def parse(self, response):
@@ -58,7 +55,6 @@ class ChurchSpider(scrapy.Spider):
                 elem = str(e)
                 if "church" in elem.lower() or "cherche" in elem.lower() or "hutsul church" in elem.lower() or "bukovina church" in elem.lower() or "lemko church" in elem.lower() or "boyko church" in elem.lower() or "ternopil church" in elem.lower() or "wooden tserkva" in elem.lower() or "wooden" in elem.lower() or "wood" in elem.lower():
                     desc.append(re.sub(' +', ' ', elem.replace("\n", "").replace("\t", "")))
-            print("DESCRIPTION: ", desc)
             desc_string = " ".join(e for e in desc)
             if ("avatar" not in img_url and "logo" not in img_url and "wikimedia-button" not in img_url) and (("ukraine" in desc_string.lower() or "oblast" in desc_string.lower()) and ("church" in desc_string.lower() or "cherche" in desc_string.lower() or "hutsul church" in desc_string.lower() or "bukovina church" in elem.lower() or "lemko church" in elem.lower() or "boyko church" in elem.lower() or "ternopil church" in elem.lower() or "wooden tserkva" in desc_string.lower() or "wooden" in desc_string.lower() or "wood" in desc_string.lower())):
                 yield {
