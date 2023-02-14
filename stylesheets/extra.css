@@ -1,0 +1,49 @@
+:root {
+  --md-primary-fg-color:        #0066cc;
+}
+/* 
+a {
+    color: #f4f262;
+} */
+
+/* body {
+    background-color: #050772;
+}
+
+.md-header {
+    color: #070a9a;
+}
+ */
+
+ .md-header {
+    color: #ffcc00;
+}
+
+/* code {
+    background-color: #b4b5fc!important;
+    color: #020043!important;
+} */
+
+h1 {
+    color: #0066cc!important
+}
+/* 
+/* .md-search__form {
+    background-color: #070a9a!important;
+    color: #f4f262;
+} */
+
+/* .md-search__input {
+    color: #f4f262;
+}
+
+.md-search__scrollwrap {
+    background-color: #050772!important;
+}
+
+.md-search-result__meta,  .md-search-result__list h1, .md-search-result__list p, .md-search-result__list div {
+    color: #f4f262!important;
+} */
+ol { 
+    list-style-type: lower-alpha; 
+}
